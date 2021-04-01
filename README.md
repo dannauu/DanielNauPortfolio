@@ -15,12 +15,7 @@
 [Repo](https://github.com/dannauu/ResponsivePortfolio)
 
 #### **Deployment**
-[Portfolio](https://dannauu.github.io/ResponsivePortfolio/)
+[Portfolio](https://dannauu.github.io/DanielNauPortfolio/)
 
-<br>
-
-## **Screenshots**
-![screenshot1](https://github.com/dannauu/ResponsivePortfolio/blob/main/Assets/Images/screenshotupdated.PNG)
-![screenshot2](https://github.com/dannauu/ResponsivePortfolio/blob/main/Assets/Images/screenshotupdate2.PNG)
 
 
