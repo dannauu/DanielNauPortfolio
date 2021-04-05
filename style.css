@@ -1,162 +1,128 @@
 h1#jumboName {
-    text-shadow: 0 1px 0 #ccc,
-                 0 2px 0 #c9c9c9,
-                 0 3px 0 #bbb,
-                 0 4px 0 #b9b9b9,
-                 0 5px 0 #aaa,
-                 0 6px 1px rgba(0,0,0,.1),
-                 0 0 5px rgba(0,0,0,.1),
-                 0 1px 3px rgba(0,0,0,.3),
-                 0 3px 5px rgba(0,0,0,.2),
-                 0 5px 10px rgba(0,0,0,.25),
-                 0 10px 10px rgba(0,0,0,.2),
-                 0 20px 20px rgba(0,0,0,.15);
-                 font-weight: bold;
-  }
+  font-weight: bold;
+  color: black;
+}
 
-  .lead {
-      font-weight: 700;
-  }
+.lead {
+  font-weight: 700;
+}
 
-  #aboutMePic {
-      height: 200px;
-      width: 200px;
-  }
+#aboutMePic {
+  height: 200px;
+  width: 200px;
+}
 
-  .skills {
-      font-weight: 700;
-      text-align: center;
-      text-shadow: 0 1px 0 #ccc,
-                 0 2px 0 #c9c9c9,
-                 0 3px 0 #bbb,
-                 0 4px 0 #b9b9b9,
-                 0 5px 0 #aaa,
-                 0 6px 1px rgba(0,0,0,.1),
-                 0 0 5px rgba(0,0,0,.1),
-                 0 1px 3px rgba(0,0,0,.3),
-                 0 3px 5px rgba(0,0,0,.2),
-                 0 5px 10px rgba(0,0,0,.25),
-                 0 10px 10px rgba(0,0,0,.2),
-                 0 20px 20px rgba(0,0,0,.15);
-                 font-weight: bold;
-  }
+.skills {
+  font-weight: 700;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
 
-  .aboutH1 {
-        text-align: center;
-        text-shadow: 0 1px 0 #ccc,
-                 0 2px 0 #c9c9c9,
-                 0 3px 0 #bbb,
-                 0 4px 0 #b9b9b9,
-                 0 5px 0 #aaa,
-                 0 6px 1px rgba(0,0,0,.1),
-                 0 0 5px rgba(0,0,0,.1),
-                 0 1px 3px rgba(0,0,0,.3),
-                 0 3px 5px rgba(0,0,0,.2),
-                 0 5px 10px rgba(0,0,0,.25),
-                 0 10px 10px rgba(0,0,0,.2),
-                 0 20px 20px rgba(0,0,0,.15);
-                 font-weight: bold;
-  }
+.aboutH1 {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
 
-  .frontEnd {
-      float: left;
-  }
+.frontEnd {
+  float: left;
+}
 
-  .portfolioH1 {
-      text-align: center;
-      text-shadow: 0 1px 0 #ccc,
-      0 2px 0 #c9c9c9,
-      0 3px 0 #bbb,
-      0 4px 0 #b9b9b9,
-      0 5px 0 #aaa,
-      0 6px 1px rgba(0,0,0,.1),
-      0 0 5px rgba(0,0,0,.1),
-      0 1px 3px rgba(0,0,0,.3),
-      0 3px 5px rgba(0,0,0,.2),
-      0 5px 10px rgba(0,0,0,.25),
-      0 10px 10px rgba(0,0,0,.2),
-      0 20px 20px rgba(0,0,0,.15);
-      font-weight: bold;
-  }
+.portfolioH1 {
+  text-align: center;
+  color: black;
+}
 
-  .card {
-    margin: 0 auto;
-    float: none;
-    margin-bottom: 10px;
-    box-shadow: 8px 8px 8px 8px rgba(5, 5, 5, 0.2),
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  box-shadow: 8px 8px 8px 8px rgba(5, 5, 5, 0.4),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .cardbtns:hover {
-    background-color: blue;
+  background-color: blue;
 }
 
 body {
-    background-color: darkgray;
-    font-family: 'Josefin Sans', sans-serif;
+  background-color: darkgray;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 #contact {
-    text-align: center;
-      text-shadow: 0 1px 0 #ccc,
-      0 2px 0 #c9c9c9,
-      0 3px 0 #bbb,
-      0 4px 0 #b9b9b9,
-      0 5px 0 #aaa,
-      0 6px 1px rgba(0,0,0,.1),
-      0 0 5px rgba(0,0,0,.1),
-      0 1px 3px rgba(0,0,0,.3),
-      0 3px 5px rgba(0,0,0,.2),
-      0 5px 10px rgba(0,0,0,.25),
-      0 10px 10px rgba(0,0,0,.2),
-      0 20px 20px rgba(0,0,0,.15);
-      font-weight: bold;
+  text-align: center;
+  font-weight: bold;
+  color: white;
 }
 
 .contactBtns {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 h4 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .tech {
-    text-align: center;
-    text-shadow: 0 1px 0 #ccc,
-      0 2px 0 #c9c9c9,
-      0 3px 0 #bbb,
-      0 4px 0 #b9b9b9,
-      0 5px 0 #aaa,
-      0 6px 1px rgba(0,0,0,.1),
-      0 0 5px rgba(0,0,0,.1),
-      0 1px 3px rgba(0,0,0,.3),
-      0 3px 5px rgba(0,0,0,.2),
-      0 5px 10px rgba(0,0,0,.25),
-      0 10px 10px rgba(0,0,0,.2),
-      0 20px 20px rgba(0,0,0,.15);
-      font-weight: bold;
+  text-align: center;
+  font-weight: bold;
+  color: black;
 }
 
 .techUl {
-    list-style-type: none;
-    text-align: center;
+  list-style-type: none;
+  text-align: center;
+  color: black;
 }
 
 #projects {
-    margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 .navbar {
-    background-color: coral;
-    color: black;
+  background-color: black;
+  color: black;
 }
 
 .py-4 {
-    border-radius: 5px;
+  border-radius: 5px;
+  background-color: black;
 }
 
 body {
-    background-image: url(./Assets/Images);
+  background-image: url(./Assets/Images/photo-1487621167305-5d248087c724.jfif);
+  background-size: cover;
+}
+
+.aboutMeParagraph {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+li {
+  font-weight: 900;
+}
+
+#aboutMe {
+    margin-bottom: 20px;
+}
+
+.btn-social {
+    color: white;
+}
+
+.btn-social:hover {
+    color: green;
+}
+
+.copyright {
+    color: white;
+}
+
+.nav-link {
+    font-weight: 400;
 }
