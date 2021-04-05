@@ -1,21 +1,14 @@
-# **ResponsivePortfolio**
+# Daniel Nau Portfolio
 
-<br>
+## Descrition
+Down below is the link for my portfolio, feel free to check it out. You can find my LinkedIn, and other ways to contact me via the contact section! Thanks for checking it out!
 
-- [x] Used Bootstrap 5 to style webpage
-- [x] Responsive layout
-- [x] Used bootstrap grid system, rows, columns, and containers.
-- [x] Used HTML validation service (https://validator.w3.org/nu/#file)
-- [x] Consistent navbar on each page
-- [x] Contains footer
-
-<br>
-
-### **Link to Repo**
-[Repo](https://github.com/dannauu/ResponsivePortfolio)
-
-#### **Deployment**
+## Deployment
 [Portfolio](https://dannauu.github.io/DanielNauPortfolio/)
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 
