@@ -5,15 +5,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daniel Nau</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">        
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-    <div class="container page-header-image">
+    <div class="container-fluid page-header-image">
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-toggler">
                 <div class="container-fluid">
@@ -30,7 +31,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+                                <a class="nav-link text-white" href="#projects">Projects</a>
                             </li>
 
                             <li class="nav-item">
@@ -56,33 +57,41 @@
                 <h1 class="fw-bold text-dark aboutH1">About Me</h1>
                 <img src="./Assets/Images/aboutmepic.jpg" class="float-start px-3" alt="..." id="aboutMePic" />
                 <p>
-                    My name is Daniel Nau. I am currently attending The University of Kansas Coding Bootcamp. I have a passion for learning code and
-                    troubleshooting code. My portfolio is always being updated, feel
-                    free to contact me with any questions or concerns!
+                    My name is Daniel Nau. I am currently attending The University of Kansas Coding Bootcamp. I have a
+                    passion for learning code and
+                    troubleshooting code. I take pride in determination and dedication when it comes to programming. I
+                    am always learning and evolving. I keep up to date with the ever so changing industry and never turn
+                    down a challenge. I graduate in May of 2021 and I am open to all remote positions, though I would
+                    prefer a full stack position. My portfolio is always being updated, feel
+                    free to contact me at the bottom of the page with any questions or concerns. Check out my LinkedIn
+                    and GitHub profiles located down below.
                 </p>
             </div>
 
             <div class="col-md-6">
                 <h1 class="skills">Current Skills</h1>
                 <div class="col-6 frontEnd">
-                    <h4>Front End Technologies</h4>
-                    <ul class="">
+                    <h4 class="tech">Front End Technologies</h4>
+                    <ul class="techUl">
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>Javascript</li>
                         <li>jQuery</li>
                         <li>React</li>
-                        <li>API Interaction (API, JSON, AJAX)</li>
+                        <li>API Interaction</li>
+                        <li>Bootstrap</li>
                     </ul>
                 </div>
                 <div>
-                    <h4>Back-End Technologies</h4>
-                    <ul>
+                    <h4 class="tech">Back-End Technologies</h4>
+                    <ul class="techUl">
                         <li>Node.Js</li>
                         <li>MongoDB</li>
+                        <li>Mongoose</li>
                         <li>Express</li>
-                        <li>MySql</li>
+                        <li>SQL</li>
                         <li>Sequelize</li>
+                        <li>REST API's</li>
                     </ul>
                 </div>
             </div>
@@ -92,8 +101,8 @@
         <hr />
 
         <div class="row">
-            <div class="col-md-12 portfolioH1" id="portfolio">
-                <h1>Portfolio</h1>
+            <div class="col-md-12 portfolioH1" id="projects">
+                <h1>Projects</h1>
             </div>
         </div>
         <div class="row">
@@ -119,8 +128,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Weather Application</h5>
                         <p class="card-text">
-                            Application that allows user to input specified city and state,
-                            which returns current weather and 5 day forecast.
+                            Application that allows user to input specified city and state for current weather.
                         </p>
                         <a href="https://dannauu.github.io/Weather-Dashboard/" class="btn btn-dark cardbtns"
                             target="_blank">Deployed App</a>
@@ -151,12 +159,13 @@
                     <div class="card-body">
                         <h5 class="card-title">Burger App</h5>
                         <p class="card-text">
-                            A full stack MVC (Model-View-Controller) app that allows the user to create burgers to eat and also displays burgers ready to eat.
+                            A full stack MVC (Model-View-Controller) app that allows the user to create burgers to eat
+                            and also displays burgers ready to eat.
                         </p>
                         <a href="https://enigmatic-beach-96316.herokuapp.com/" class="btn btn-dark cardbtns"
                             target="">Deployed App</a>
-                        <a href="https://github.com/dannauu/burgers" class="btn btn-dark cardbtns"
-                            target="">Github Repo</a>
+                        <a href="https://github.com/dannauu/burgers" class="btn btn-dark cardbtns" target="">Github
+                            Repo</a>
                     </div>
                 </div>
             </div>
@@ -169,27 +178,31 @@
         </div>
         <div class="row">
             <div class="col-md-12 contactBtns">
-                <a href="./Assets/Images/Daniel Nau Resume 2021.pdf" class="btn btn-social" target="_blank"><i class="far fa-file-pdf"></i> Resume</a>
-                <a href="mailto:danielnau1994@gmail.com" class="btn btn-social" id="email"><i class="fa fa-envelope"></i> Email</a>
-                <a href="https://github.com/dannauu" class="btn btn-social" target="_blank"><i class="fab fa-github"></i> Github</a>
-                <a href="https://www.linkedin.com/in/daniel-nau-070441194/" class="btn btn-social" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a>
+                <a href="./Assets/Images/Daniel Nau Resume 2021.pdf" class="btn btn-social" target="_blank"><i
+                        class="far fa-file-pdf"></i> Resume</a>
+                <a href="mailto:danielnau1994@gmail.com" class="btn btn-social" id="email"><i
+                        class="fa fa-envelope"></i> Email</a>
+                <a href="https://github.com/dannauu" class="btn btn-social" target="_blank"><i
+                        class="fab fa-github"></i> Github</a>
+                <a href="https://www.linkedin.com/in/daniel-nau-070441194/" class="btn btn-social" target="_blank"><i
+                        class="fab fa-linkedin"></i> Linkedin</a>
                 <a class="btn btn-social" id="phoneNumber"><i class="fas fa-phone"></i> 816-882-8421</a>
             </div>
         </div>
 
         <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-            <div class="container text-center">
-                <small>Copyright &copy; Daniel Nau</small>
+            <div class="text-center">
+                <large>Copyright &copy; Daniel Nau</large>
             </div>
-            
+
         </footer>
     </div>
-    
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
     crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/687a090127.js" crossorigin="anonymous"></script>
-    <script src="./script.js"></script>
+<script src="https://kit.fontawesome.com/687a090127.js" crossorigin="anonymous"></script>
+<script src="./script.js"></script>
 
 </html>
